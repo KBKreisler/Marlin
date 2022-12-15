@@ -454,6 +454,12 @@
     #define TFTGLCD_CS               EXP2_08_PIN
   #endif
 
+#elif ENABLED(HAS_DWIN_E3V2) // Added Support for DWIN_CREALITY_LCD - Kyller Edit
+  #define BTN_EN1                    EXP1_03_PIN
+  #define BTN_EN2                    EXP1_04_PIN
+  #define BEEPER_PIN                 EXP1_05_PIN
+  #define BTN_ENC                    EXP1_06_PIN
+
 #elif HAS_WIRED_LCD
 
   #define BEEPER_PIN                 EXP1_10_PIN
